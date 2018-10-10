@@ -3,434 +3,38 @@
         "page": 1,
         "per_page": 100,
         "total_pages": 1,
-        "total": 24
+        "total": 30
     },
     "cards": [
         {
-            "id": 3686435,
+            "id": 3759893,
             "creator_id": 219724,
             "project_id": 15973,
-            "sprint_id": 26542,
+            "sprint_id": 26879,
             "workspace_id": 17954,
-            "body": "Se importo un pythopack in modalità di mantenimento delle risorse già presenti, le run delle simulazioni vengono duplicate. \r\nSi veda http://daa-ws-01:9100/5b33a7258736ef62e54e64fe/5b33a7398736ef6da8362020/\r\n(Il problema non si presentaa in produzione)\r\n\r\n1)creare un nuovo progetto\r\n2) caricare il pythopack  in allegato 2 volte e laseconda volta attivare il checkbox\r\n\r\n[sim.0.0.20.zip](https://github.com/prometeia/doob/files/2141945/sim.0.0.20.zip)\r\n",
-            "category_name": "In Progress",
-            "closed_at": null,
-            "comments_count": 2,
-            "last_comment_at": "2018-09-27T13:08:10.000Z",
-            "number": 146,
-            "points": null,
-            "priority": 3,
-            "search_key": "146 duplicazione run se pythopack è importato più volte",
-            "state": "open",
-            "status": "in_progress",
-            "title": "Duplicazione run se pythopack è importato più volte",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:43.282Z",
-            "updated_at": "2018-10-02T09:44:29.019Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 220953,
-                    "username": "MatteoGnudi",
-                    "name": null,
-                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161768,
-                    "name": "bug",
-                    "color": "eb6420",
-                    "project_id": 15973
-                },
-                {
-                    "id": 161789,
-                    "name": "regression",
-                    "color": "b60205",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 336287712,
-                "milestone_id": 3689787,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/1364",
-                "locked": false,
-                "merged": false,
-                "number": 1364,
-                "type": "issue",
-                "created_at": "2018-06-27T15:49:58.000Z",
-                "milestone": {
-                    "id": 3689787,
-                    "title": "pytho v4.3.5",
-                    "source_id": 14558258,
-                    "state": "closed"
-                },
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3686431,
-            "creator_id": 219999,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "![hb_ptunnamed](https://user-images.githubusercontent.com/3242660/41404674-1ad39af0-6fc8-11e8-80de-1e6adc8b0aba.jpg)\r\n\r\n\r\nCome si vede dall'immagine, sembra che almeno un metodo per creare progetti sia non autenticato e risponda  come si vede.\r\n\r\n",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 3,
-            "last_comment_at": "2018-09-10T13:32:22.000Z",
-            "number": 142,
-            "points": 1,
-            "priority": 3,
-            "search_key": "142 empty projects created by penetration test.",
-            "state": "open",
-            "status": "queued",
-            "title": "Empty projects created by penetration test.",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:42.765Z",
-            "updated_at": "2018-09-26T10:33:46.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 220953,
-                    "username": "MatteoGnudi",
-                    "name": null,
-                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219999,
-                "username": "glaucouri",
-                "name": "Glauco"
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161768,
-                    "name": "bug",
-                    "color": "eb6420",
-                    "project_id": 15973
-                },
-                {
-                    "id": 161793,
-                    "name": "security",
-                    "color": "6ce286",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 332327890,
-                "milestone_id": 3689803,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/1354",
-                "locked": false,
-                "merged": false,
-                "number": 1354,
-                "type": "issue",
-                "created_at": "2018-06-14T09:44:33.000Z",
-                "milestone": {
-                    "id": 3689803,
-                    "title": "pytho v4.5.0",
-                    "source_id": 14558258,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3723280,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "I risultati di questa simulazione sono scomparsi https://pythobeta.prometeia.it/5b2ba5268736ef270e566b62/5b2ba76f8736ef47dba96151/\r\n\r\nNon sono stati cancellati manualmente.",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 1,
-            "last_comment_at": "2018-09-25T14:33:46.000Z",
-            "number": 1439,
-            "points": 3,
-            "priority": 3,
-            "search_key": "1439 some results file seem to be deleted",
-            "state": "open",
-            "status": "queued",
-            "title": "Some results file seem to be deleted",
-            "upvotes_count": 0,
-            "created_at": "2018-09-21T15:17:14.845Z",
-            "updated_at": "2018-09-26T09:53:28.000Z",
-            "epic_id": 10973,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": {
-                "id": 10973,
-                "workspace_id": null,
-                "number": 9,
-                "status": "in_progress",
-                "color": "#bad41d",
-                "title": "File cleaner upgrade"
-            },
-            "labels": [
-                {
-                    "id": 161768,
-                    "name": "bug",
-                    "color": "eb6420",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 362662472,
-                "milestone_id": 3689764,
-                "source_id": 142119384,
-                "html_url": "https://github.com/prometeia/pytho/issues/10",
-                "locked": false,
-                "merged": false,
-                "number": 10,
-                "type": "issue",
-                "created_at": "2018-09-21T15:17:13.000Z",
-                "milestone": {
-                    "id": 3689764,
-                    "title": "pytho v4.5.0",
-                    "source_id": 142119384,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 142119384,
-                    "name": "pytho"
-                }
-            }
-        },
-        {
-            "id": 3686442,
-            "creator_id": 219778,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Il campo \"pk\" nella richiesta di rating mappa direttamente il campo \"_id\" nella collection resources, il che è poco comodo visto che da interfaccia non lo si vede, e comunque esportando/importanto cambia.\r\n\r\nBisognerebbe poterlo risolvere anche in maniera più astratta, ad esempio per progetto e ID.\r\n\r\nNecessario anche verificare l'effettivo privilegio di accesso alla risorsa: attualmente si usa solo e unicamente la *get_item,* che sebbene prenda come parametro lo _username_ questo in realtà poi viene ignorato, andrebbe esplicitamente chiamata a ruota la *has_permission*.",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 8,
-            "last_comment_at": "2018-09-03T14:36:53.000Z",
-            "number": 153,
-            "points": 0.5,
-            "priority": 4,
-            "search_key": "153 select target rating macro without knowing the _id and checking the permissions",
-            "state": "open",
-            "status": "queued",
-            "title": "Select target rating macro without knowing the _id and checking the permissions",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:44.834Z",
-            "updated_at": "2018-10-02T08:55:06.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219778,
-                    "username": "debrando",
-                    "name": "Denis Brandolini",
-                    "avatar_path": "/avatars/52fd05acaf03d74f8c2af2f94b674808.jpg"
-                },
-                {
-                    "id": 219724,
-                    "username": "loredanaribatto",
-                    "name": null,
-                    "avatar_path": "/avatars/25e01b655a9c0677a6bac2217a18df1c.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219778,
-                "username": "debrando",
-                "name": "Denis Brandolini"
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161774,
-                    "name": "enhancement",
-                    "color": "009800",
-                    "project_id": 15973
-                },
-                {
-                    "id": 161793,
-                    "name": "security",
-                    "color": "6ce286",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 322329868,
-                "milestone_id": 3654750,
-                "source_id": 130689576,
-                "html_url": "https://github.com/prometeia/ratingpro/issues/9",
-                "locked": false,
-                "merged": false,
-                "number": 9,
-                "type": "issue",
-                "created_at": "2018-05-11T15:03:02.000Z",
-                "milestone": {
-                    "id": 3654750,
-                    "title": "ratingpro v3.5.0",
-                    "source_id": 130689576,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 130689576,
-                    "name": "ratingpro"
-                }
-            }
-        },
-        {
-            "id": 3713189,
-            "creator_id": 219999,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Indagare i seguenti casi di test, per le simulazioni:\r\n\r\n\r\nsim_custom_component_v123/   (problema shape)\r\n\r\n\r\nsim_dic_5y_ifrs9/ (BE differenti)\r\nsim_huge_BPOP/\r\nsim_sbb_huge/\r\nsim_securities_bper/\r\n",
+            "body": "Cliccare il tasto Apply and preview di qualunque macro si ottiene l'errore in immagine\r\n![image.png](https://zube.io/files/prometeia/be84dfb1b362aee0746e6603c6a3b209-image.png)",
             "category_name": "In Review",
             "closed_at": null,
-            "comments_count": 3,
-            "last_comment_at": "2018-09-28T14:51:00.000Z",
-            "number": 1433,
-            "points": 2,
-            "priority": 4,
-            "search_key": "1433 sim_suite errors",
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 1465,
+            "points": null,
+            "priority": 2,
+            "search_key": "1465 apply and preview error",
             "state": "open",
             "status": "in_review",
-            "title": "sim_suite ERRORS",
+            "title": "Apply and preview error",
             "upvotes_count": 0,
-            "created_at": "2018-09-20T08:28:00.938Z",
-            "updated_at": "2018-09-28T14:51:00.000Z",
+            "created_at": "2018-10-03T15:02:39.806Z",
+            "updated_at": "2018-10-09T14:08:19.174Z",
             "epic_id": null,
             "closer_id": null,
             "assignees": [
                 {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219999,
-                "username": "glaucouri",
-                "name": "Glauco"
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161768,
-                    "name": "bug",
-                    "color": "eb6420",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 362073891,
-                "milestone_id": 3689771,
-                "source_id": 138867135,
-                "html_url": "https://github.com/prometeia/gsf/issues/11",
-                "locked": false,
-                "merged": false,
-                "number": 11,
-                "type": "issue",
-                "created_at": "2018-09-20T08:27:59.000Z",
-                "milestone": {
-                    "id": 3689771,
-                    "title": "gsf v4.5.0",
-                    "source_id": 138867135,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 138867135,
-                    "name": "gsf"
-                }
-            }
-        },
-        {
-            "id": 3686356,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "II parte di implemetnazione della ricerca realizzata nella [#215 (prometeia/doob#1083)](https://zube.io/prometeia/pytho-rating-pro/c/215)  \r\nValutare algoritmi più sofisticati per potrebbero intercettare anche parti di testo, ripetizioni, etc.",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 6,
-            "last_comment_at": "2018-08-31T07:53:58.000Z",
-            "number": 68,
-            "points": 0.5,
-            "priority": 4,
-            "search_key": "68 search improvement ii part",
-            "state": "open",
-            "status": "queued",
-            "title": "Search improvement II part",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:34.727Z",
-            "updated_at": "2018-09-26T10:48:05.644Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219778,
-                    "username": "debrando",
-                    "name": "Denis Brandolini",
-                    "avatar_path": "/avatars/52fd05acaf03d74f8c2af2f94b674808.jpg"
+                    "id": 219998,
+                    "username": "ilmioalias",
+                    "name": "Luigi Curzi",
+                    "avatar_path": "/avatars/9b47ca4152b26040c018e8017852a339.jpg"
                 }
             ],
             "creator": {
@@ -439,86 +43,6 @@
                 "name": null
             },
             "epic": null,
-            "labels": [
-                {
-                    "id": 161774,
-                    "name": "enhancement",
-                    "color": "009800",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 260984300,
-                "milestone_id": 3689861,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/1110",
-                "locked": false,
-                "merged": false,
-                "number": 1110,
-                "type": "issue",
-                "created_at": "2017-09-27T13:57:18.000Z",
-                "milestone": {
-                    "id": 3689861,
-                    "title": "pytho v5.0.0",
-                    "source_id": 14558258,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3686386,
-            "creator_id": 220951,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Se la macro è molto complessa e / o il dataset di input è molto grande,\r\nil run in modalità debug finisce con un timeout. Il problema è che il messagio di timeout\r\nnon è parlante.\r\nQuindi:\r\n- gestire il messagio di errore\r\n- Reinitializzare la macro (abort).",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 2,
-            "last_comment_at": "2018-05-15T09:15:40.000Z",
-            "number": 98,
-            "points": 0.5,
-            "priority": 4,
-            "search_key": "98 timeout in fase di esecuzione - debug - della macro",
-            "state": "open",
-            "status": "queued",
-            "title": "Timeout in fase di esecuzione - debug - della macro",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:37.939Z",
-            "updated_at": "2018-09-26T10:33:57.000Z",
-            "epic_id": 10972,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 220955,
-                    "username": "sirmmo",
-                    "name": "Marco Montanari",
-                    "avatar_path": "/avatars/e8a9df02ef829fb8de100407b97ad976.jpg"
-                }
-            ],
-            "creator": {
-                "id": 220951,
-                "username": "cyrille81",
-                "name": null
-            },
-            "epic": {
-                "id": 10972,
-                "workspace_id": null,
-                "number": 8,
-                "status": "in_progress",
-                "color": "#6f73ba",
-                "title": "Interface timeout"
-            },
             "labels": [
                 {
                     "id": 161768,
@@ -534,378 +58,21 @@
                 }
             ],
             "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
+                "id": 26879,
+                "title": "Sprint 11",
                 "workspace_id": 17954,
                 "state": "open"
             },
             "github_issue": {
-                "id": 311540759,
-                "milestone_id": 3689803,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/1244",
-                "locked": false,
-                "merged": false,
-                "number": 1244,
-                "type": "issue",
-                "created_at": "2018-04-05T09:43:03.000Z",
-                "milestone": {
-                    "id": 3689803,
-                    "title": "pytho v4.5.0",
-                    "source_id": 14558258,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3686432,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "In un modello come quello in allegato \r\n[JYmodel - mar2018 (1).zip](https://github.com/prometeia/doob/files/2118990/JYmodel.-.mar2018.1.zip)\r\nLa variabile \"testino\", compresa nel range dei modelli, fa riferimento ad una esogena, anch'essa compresa nei range dei modelli, che ha label drift_r ma che è anche definita nel namemanger  come test_nome: il parser predilige la definizione del namemanger e la considera come parametro.\r\nSi veda la componente del modello caricato in beta\r\n![image](https://user-images.githubusercontent.com/18213555/41654761-c3a55cd8-748a-11e8-9b46-177c7525f173.png)\r\n\r\nhttps://pythobeta.prometeia.it/5b0bfb668736ef7199ec814d/5b0c05ff8736ef0232f0878f/\r\n\r\nModificare il comportamento del parser in modo che le equazioni riconoscano come input una componente anche se è definita nel namemanager.\r\n\r\n\r\n",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 0,
-            "last_comment_at": null,
-            "number": 143,
-            "points": null,
-            "priority": 4,
-            "search_key": "143 ambiguità nome componente/parametro",
-            "state": "open",
-            "status": "queued",
-            "title": "Ambiguità nome componente/parametro",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:42.856Z",
-            "updated_at": "2018-09-26T10:33:17.170Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": null,
-            "labels": [],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 334030492,
-                "milestone_id": 3689859,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/1358",
-                "locked": false,
-                "merged": false,
-                "number": 1358,
-                "type": "issue",
-                "created_at": "2018-06-20T11:11:49.000Z",
-                "milestone": {
-                    "id": 3689859,
-                    "title": "gsf v4.5.0",
-                    "source_id": 14558258,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3695591,
-            "creator_id": 219999,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "\r\n[SEL_PortfolioModel_completo_macro_test1.zip](https://github.com/prometeia/gsf/files/2388036/SEL_PortfolioModel_completo_macro_test1.zip)\r\n\r\nil caso è interessante,\r\nle equazioni alla riga 445:452  sono scritte in forma =0 e anche forzando\r\nil formato a stringa vengono interpretate come funzioni numeriche.\r\nquello è il float che da fastidio.\r\n\r\nScrivendole invece in forma '0 si obblica excel a gestire quei casi come numeri.\r\n\r\nProbabilmente forzando a stringa tutti i campi equation risolviamo il bproblema\r\n",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 0,
-            "last_comment_at": null,
-            "number": 1422,
-            "points": null,
-            "priority": 4,
-            "search_key": "1422 enforce type handler in massive upload.",
-            "state": "open",
-            "status": "queued",
-            "title": "Enforce type handler in massive upload.",
-            "upvotes_count": 0,
-            "created_at": "2018-09-17T09:46:16.383Z",
-            "updated_at": "2018-09-26T10:30:30.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219999,
-                "username": "glaucouri",
-                "name": "Glauco"
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161774,
-                    "name": "enhancement",
-                    "color": "009800",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 360792675,
-                "milestone_id": 3689771,
-                "source_id": 138867135,
-                "html_url": "https://github.com/prometeia/gsf/issues/6",
-                "locked": false,
-                "merged": false,
-                "number": 6,
-                "type": "issue",
-                "created_at": "2018-09-17T09:46:14.000Z",
-                "milestone": {
-                    "id": 3689771,
-                    "title": "gsf v4.5.0",
-                    "source_id": 138867135,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 138867135,
-                    "name": "gsf"
-                }
-            }
-        },
-        {
-            "id": 3723208,
-            "creator_id": 219778,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Molti UT sono sparsi per le sottocartelle e non operativi: vanno riportati sotto \"/tests\" e bonificati.",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 1,
-            "last_comment_at": "2018-09-21T15:07:15.000Z",
-            "number": 1437,
-            "points": 3,
-            "priority": 4,
-            "search_key": "1437 bonifica unit tests",
-            "state": "open",
-            "status": "queued",
-            "title": "Bonifica unit tests",
-            "upvotes_count": 0,
-            "created_at": "2018-09-21T14:56:33.576Z",
-            "updated_at": "2018-09-26T09:54:57.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219778,
-                "username": "debrando",
-                "name": "Denis Brandolini"
-            },
-            "epic": null,
-            "labels": [],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 362652724,
-                "milestone_id": 3689771,
-                "source_id": 138867135,
-                "html_url": "https://github.com/prometeia/gsf/issues/13",
+                "id": 366385133,
+                "milestone_id": 3689764,
+                "source_id": 142119384,
+                "html_url": "https://github.com/prometeia/pytho/issues/13",
                 "locked": false,
                 "merged": false,
                 "number": 13,
                 "type": "issue",
-                "created_at": "2018-09-21T14:56:33.000Z",
-                "milestone": {
-                    "id": 3689771,
-                    "title": "gsf v4.5.0",
-                    "source_id": 138867135,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 138867135,
-                    "name": "gsf"
-                }
-            }
-        },
-        {
-            "id": 3748411,
-            "creator_id": 219999,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "cfr: Gemini ESUP-36524\r\n\r\nLa component CRP ha 2 bug di implementazione:\r\n1) viene utilizzata la funzione isf (invece della ppf) per il campionamento dei defalut\r\n2) nella gestione dei default, il minimo a 1 della popolazione fa si che cluster molto piccoli (ad esempio di 1 unità) facciano resuscitare le persone anche in caso di default",
-            "category_name": "In Progress",
-            "closed_at": null,
-            "comments_count": 0,
-            "last_comment_at": null,
-            "number": 1463,
-            "points": null,
-            "priority": null,
-            "search_key": "1463 minor bug in crp component (gemini esup-36524)",
-            "state": "open",
-            "status": "in_progress",
-            "title": "minor bug in CRP component (Gemini ESUP-36524)",
-            "upvotes_count": 0,
-            "created_at": "2018-10-02T08:31:31.133Z",
-            "updated_at": "2018-10-02T08:55:05.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219999,
-                "username": "glaucouri",
-                "name": "Glauco"
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161768,
-                    "name": "bug",
-                    "color": "eb6420",
-                    "project_id": 15973
-                },
-                {
-                    "id": 161775,
-                    "name": "gsf",
-                    "color": "c7def8",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 365792269,
-                "milestone_id": 3689771,
-                "source_id": 138867135,
-                "html_url": "https://github.com/prometeia/gsf/issues/17",
-                "locked": false,
-                "merged": false,
-                "number": 17,
-                "type": "issue",
-                "created_at": "2018-10-02T08:31:30.000Z",
-                "milestone": {
-                    "id": 3689771,
-                    "title": "gsf v4.5.0",
-                    "source_id": 138867135,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 138867135,
-                    "name": "gsf"
-                }
-            }
-        },
-        {
-            "id": 3686491,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Nel tab correlation dei modelli è possibile inserire una stessa correlazione due volte (invertendo l'ordine delle componenti) con coefficienti diversi: inserire un controllo di consistenza sia da interfaccia sia da foglio Excel che impedisca l'inserimetno di una correlazione già presente.",
-            "category_name": "In Progress",
-            "closed_at": null,
-            "comments_count": 2,
-            "last_comment_at": "2018-09-28T15:50:54.000Z",
-            "number": 202,
-            "points": null,
-            "priority": null,
-            "search_key": "202 possibile inserire una correlazione duplicata",
-            "state": "open",
-            "status": "in_progress",
-            "title": "Possibile inserire una correlazione duplicata",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:51.248Z",
-            "updated_at": "2018-09-28T15:50:54.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161768,
-                    "name": "bug",
-                    "color": "eb6420",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 353025249,
-                "milestone_id": 3689764,
-                "source_id": 142119384,
-                "html_url": "https://github.com/prometeia/pytho/issues/5",
-                "locked": false,
-                "merged": false,
-                "number": 5,
-                "type": "issue",
-                "created_at": "2018-08-22T16:12:39.000Z",
+                "created_at": "2018-10-03T15:02:38.000Z",
                 "milestone": {
                     "id": 3689764,
                     "title": "pytho v4.5.0",
@@ -919,334 +86,10 @@
             }
         },
         {
-            "id": 3739444,
-            "creator_id": 219999,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "in versione  4.5.0 non funziona più l'upload delle correlazioni.\r\n\r\nmaybe?\r\n\r\n\r\n    filename = (backend.update_filename(request, filename, *args, **kwargs)\r\n  File \".../pytho/pytho/core/views.py\", line 4530, in update_filename\r\n    return new_filename\r\nUnboundLocalError: local variable 'new_filename' referenced before assignment\r\n",
-            "category_name": "In Progress",
-            "closed_at": null,
-            "comments_count": 0,
-            "last_comment_at": null,
-            "number": 1458,
-            "points": null,
-            "priority": null,
-            "search_key": "1458 upload correlations broken",
-            "state": "open",
-            "status": "in_progress",
-            "title": "upload correlations broken",
-            "upvotes_count": 0,
-            "created_at": "2018-09-28T15:14:59.374Z",
-            "updated_at": "2018-09-28T15:15:03.771Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219999,
-                "username": "glaucouri",
-                "name": "Glauco"
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161768,
-                    "name": "bug",
-                    "color": "eb6420",
-                    "project_id": 15973
-                },
-                {
-                    "id": 161781,
-                    "name": "models",
-                    "color": "c7def8",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": null
-        },
-        {
-            "id": 3686337,
-            "creator_id": 219999,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Valutare una procedura che tenga sotto controllo la crescita dei files nella cartella degli upload.\r\n\r\nmi verrebbe da pensare al filecleaner con una procedura che cancella i files più vecchi di X.\r\n\r\ntemporaneamente possiamo procedere con questo comando per le macchine linux:\r\n(rimuove i files piu vecchi di 30gg.\r\n\r\nfind * -mtime +30 -exec rm {} \\;\r\n\r\n",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 3,
-            "last_comment_at": "2018-05-21T07:48:53.000Z",
-            "number": 49,
-            "points": 0.5,
-            "priority": null,
-            "search_key": "49 media/uploads handle old files",
-            "state": "open",
-            "status": "queued",
-            "title": "media/uploads handle old files",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:32.800Z",
-            "updated_at": "2018-09-27T14:01:38.000Z",
-            "epic_id": 10973,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219999,
-                "username": "glaucouri",
-                "name": "Glauco"
-            },
-            "epic": {
-                "id": 10973,
-                "workspace_id": null,
-                "number": 9,
-                "status": "in_progress",
-                "color": "#bad41d",
-                "title": "File cleaner upgrade"
-            },
-            "labels": [
-                {
-                    "id": 161774,
-                    "name": "enhancement",
-                    "color": "009800",
-                    "project_id": 15973
-                },
-                {
-                    "id": 161778,
-                    "name": "infrastructure",
-                    "color": "006b75",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 204230749,
-                "milestone_id": null,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/924",
-                "locked": false,
-                "merged": false,
-                "number": 924,
-                "type": "issue",
-                "created_at": "2017-01-31T08:24:55.000Z",
-                "milestone": null,
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3686438,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Modficare il parser in modo che, se una custom componente o un modello di tipo full featured vengono caricati con equazioni a marginale zero, queste siano trasformate in definizioni. Nei log di upload deve essere esplicitata la modfica. \r\nSi prenda ad esempio la custom component e il modello associato.\r\n[MODELLO_IMAP_prova.xlsx](https://github.com/prometeia/doob/files/2175520/MODELLO_IMAP_prova.xlsx)\r\n[LIN_COM.xlsx](https://github.com/prometeia/doob/files/2175521/LIN_COM.xlsx)\r\n\r\n",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 1,
-            "last_comment_at": "2018-09-27T13:59:03.000Z",
-            "number": 149,
-            "points": null,
-            "priority": null,
-            "search_key": "149 declass zero-marginal equation to definition",
-            "state": "open",
-            "status": "queued",
-            "title": "Declass zero-marginal equation to definition",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:43.603Z",
-            "updated_at": "2018-09-27T13:59:03.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": null,
-            "labels": [],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 339373813,
-                "milestone_id": 3689859,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/1371",
-                "locked": false,
-                "merged": false,
-                "number": 1371,
-                "type": "issue",
-                "created_at": "2018-07-09T09:32:41.000Z",
-                "milestone": {
-                    "id": 3689859,
-                    "title": "gsf v4.5.0",
-                    "source_id": 14558258,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3729666,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 1,
-            "last_comment_at": "2018-09-27T13:10:12.694Z",
-            "number": 1446,
-            "points": null,
-            "priority": null,
-            "search_key": "1446 testare in produzione duplicazione run se pythopack è importato più volte",
-            "state": "open",
-            "status": "queued",
-            "title": "Testare in produzione Duplicazione run se pythopack è importato più volte",
-            "upvotes_count": 0,
-            "created_at": "2018-09-25T14:03:01.978Z",
-            "updated_at": "2018-09-27T13:24:03.096Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219724,
-                    "username": "loredanaribatto",
-                    "name": null,
-                    "avatar_path": "/avatars/25e01b655a9c0677a6bac2217a18df1c.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": null,
-            "labels": [],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": null
-        },
-        {
-            "id": 3686444,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": null,
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 0,
-            "last_comment_at": null,
-            "number": 155,
-            "points": null,
-            "priority": null,
-            "search_key": "155 predisposizione postman per non-programmatori",
-            "state": "open",
-            "status": "queued",
-            "title": "Predisposizione Postman per non-programmatori",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:45.181Z",
-            "updated_at": "2018-09-27T09:18:33.581Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                },
-                {
-                    "id": 219724,
-                    "username": "loredanaribatto",
-                    "name": null,
-                    "avatar_path": "/avatars/25e01b655a9c0677a6bac2217a18df1c.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": null,
-            "labels": [],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 358077287,
-                "milestone_id": 3632668,
-                "source_id": 130689576,
-                "html_url": "https://github.com/prometeia/ratingpro/issues/20",
-                "locked": false,
-                "merged": false,
-                "number": 20,
-                "type": "issue",
-                "created_at": "2018-09-07T13:56:08.000Z",
-                "milestone": {
-                    "id": 3632668,
-                    "title": "Sprint 9",
-                    "source_id": 130689576,
-                    "state": "closed"
-                },
-                "source": {
-                    "id": 130689576,
-                    "name": "ratingpro"
-                }
-            }
-        },
-        {
             "id": 3733871,
             "creator_id": 219778,
             "project_id": 15973,
-            "sprint_id": 26542,
+            "sprint_id": 26879,
             "workspace_id": 17954,
             "body": "Negli _assets_ sono pubblicate risorse direttamente reperite dal client (es. la configurazione in conf.json), ma attualmente in giro i path sono cablati su \"/assets\", mentre il sistema di deploy django-style richiederebbe un \"/pytho-front/assets\".Inoltre, la configurazione come sopra richiederebbe un pacchetto dedicato per ogni installazione, dal momento che anche l'url a cui trova le api pytho è li cablato in un file statico. Bisognerebbe quadrare il giro.\r\n\r\nUna soluzione potrebbe essere prevedere che il file di configurazione venga cercato in un altro punto convenzionalmente stabilito, non parte di alcun pacchetto ma servito come file compilato ad hoc (esempio \"/config/pytho-front.json\"); questo file di configurazione potrebbe poi contenere anche il path dei restanti assets angular. Per praticità di sviluppo, in mancanza di detto file sul server potrebbe esserci fallback sull'attuale /assets/config.json.",
             "category_name": "Ready",
@@ -1254,15 +97,15 @@
             "comments_count": 0,
             "last_comment_at": null,
             "number": 1451,
-            "points": null,
-            "priority": null,
+            "points": 0.5,
+            "priority": 2,
             "search_key": "1451 configuration an path of assets.",
             "state": "open",
             "status": "queued",
             "title": "Configuration an path of assets.",
             "upvotes_count": 0,
             "created_at": "2018-09-27T07:37:30.364Z",
-            "updated_at": "2018-09-27T07:37:30.364Z",
+            "updated_at": "2018-10-09T14:02:37.131Z",
             "epic_id": null,
             "closer_id": null,
             "assignees": [
@@ -1281,8 +124,8 @@
             "epic": null,
             "labels": [],
             "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
+                "id": 26879,
+                "title": "Sprint 11",
                 "workspace_id": 17954,
                 "state": "open"
             },
@@ -1309,258 +152,26 @@
             }
         },
         {
-            "id": 3709857,
-            "creator_id": 219778,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Ho impacchettato il lanco degli UT in un pytest standard come da workflow standard. Ora come ora però tutti tranne due falliscono, anche lanciati riga comando. Magari è solo questione di configurazione karma, non saprei al momento.\r\n\r\nPer evitare rumore ho a default disabilitato il lancio degli UT nella pipeline, la riattiveremo raggiunta una situazione stabile.",
-            "category_name": "In Progress",
-            "closed_at": null,
-            "comments_count": 1,
-            "last_comment_at": "2018-09-27T06:55:12.000Z",
-            "number": 1429,
-            "points": null,
-            "priority": null,
-            "search_key": "1429 validate unit tests",
-            "state": "open",
-            "status": "in_progress",
-            "title": "Validate Unit Tests",
-            "upvotes_count": 0,
-            "created_at": "2018-09-19T13:47:27.701Z",
-            "updated_at": "2018-09-27T06:55:12.000Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 220955,
-                    "username": "sirmmo",
-                    "name": "Marco Montanari",
-                    "avatar_path": "/avatars/e8a9df02ef829fb8de100407b97ad976.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219778,
-                "username": "debrando",
-                "name": "Denis Brandolini"
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161774,
-                    "name": "enhancement",
-                    "color": "009800",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 361757715,
-                "milestone_id": 3689876,
-                "source_id": 136299632,
-                "html_url": "https://github.com/prometeia/pytho-front/issues/3",
-                "locked": false,
-                "merged": false,
-                "number": 3,
-                "type": "issue",
-                "created_at": "2018-09-19T13:47:27.000Z",
-                "milestone": {
-                    "id": 3689876,
-                    "title": "pytho-front v0.0.1",
-                    "source_id": 136299632,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 136299632,
-                    "name": "pytho-front"
-                }
-            }
-        },
-        {
-            "id": 3686439,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": null,
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 0,
-            "last_comment_at": null,
-            "number": 150,
-            "points": null,
-            "priority": null,
-            "search_key": "150 site administrator panel refactoring",
-            "state": "open",
-            "status": "queued",
-            "title": "Site Administrator Panel Refactoring",
-            "upvotes_count": 0,
-            "created_at": "2018-09-12T11:19:43.689Z",
-            "updated_at": "2018-09-26T10:32:49.019Z",
-            "epic_id": 10795,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 220953,
-                    "username": "MatteoGnudi",
-                    "name": null,
-                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
-                },
-                {
-                    "id": 220955,
-                    "username": "sirmmo",
-                    "name": "Marco Montanari",
-                    "avatar_path": "/avatars/e8a9df02ef829fb8de100407b97ad976.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": {
-                "id": 10795,
-                "workspace_id": null,
-                "number": 1,
-                "status": "queued",
-                "color": "#000000",
-                "title": "Prototipo form amministrazione"
-            },
-            "labels": [
-                {
-                    "id": 161774,
-                    "name": "enhancement",
-                    "color": "009800",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 341540140,
-                "milestone_id": 3689861,
-                "source_id": 14558258,
-                "html_url": "https://github.com/prometeia/doob/issues/1372",
-                "locked": false,
-                "merged": false,
-                "number": 1372,
-                "type": "issue",
-                "created_at": "2018-07-16T14:22:47.000Z",
-                "milestone": {
-                    "id": 3689861,
-                    "title": "pytho v5.0.0",
-                    "source_id": 14558258,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 14558258,
-                    "name": "doob"
-                }
-            }
-        },
-        {
-            "id": 3729762,
-            "creator_id": 219724,
-            "project_id": 15973,
-            "sprint_id": 26542,
-            "workspace_id": 17954,
-            "body": "Creare una reportistica con la quota di ogni utente.",
-            "category_name": "Ready",
-            "closed_at": null,
-            "comments_count": 0,
-            "last_comment_at": null,
-            "number": 1449,
-            "points": null,
-            "priority": null,
-            "search_key": "1449 ripristinare task quote",
-            "state": "open",
-            "status": "queued",
-            "title": "Ripristinare task quote",
-            "upvotes_count": 0,
-            "created_at": "2018-09-25T14:35:25.290Z",
-            "updated_at": "2018-09-26T10:30:50.397Z",
-            "epic_id": null,
-            "closer_id": null,
-            "assignees": [
-                {
-                    "id": 219999,
-                    "username": "glaucouri",
-                    "name": "Glauco",
-                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
-                }
-            ],
-            "creator": {
-                "id": 219724,
-                "username": "loredanaribatto",
-                "name": null
-            },
-            "epic": null,
-            "labels": [
-                {
-                    "id": 161774,
-                    "name": "enhancement",
-                    "color": "009800",
-                    "project_id": 15973
-                }
-            ],
-            "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
-                "workspace_id": 17954,
-                "state": "open"
-            },
-            "github_issue": {
-                "id": 363611139,
-                "milestone_id": 3689764,
-                "source_id": 142119384,
-                "html_url": "https://github.com/prometeia/pytho/issues/11",
-                "locked": false,
-                "merged": false,
-                "number": 11,
-                "type": "issue",
-                "created_at": "2018-09-25T14:35:24.000Z",
-                "milestone": {
-                    "id": 3689764,
-                    "title": "pytho v4.5.0",
-                    "source_id": 142119384,
-                    "state": "open"
-                },
-                "source": {
-                    "id": 142119384,
-                    "name": "pytho"
-                }
-            }
-        },
-        {
             "id": 3686394,
             "creator_id": 219724,
             "project_id": 15973,
-            "sprint_id": 26542,
+            "sprint_id": 26879,
             "workspace_id": 17954,
             "body": "Blocca [#99 (prometeia/doob#1255)](https://zube.io/prometeia/pytho-rating-pro/c/99) ",
-            "category_name": "Ready",
+            "category_name": "In Review",
             "closed_at": null,
             "comments_count": 2,
             "last_comment_at": "2018-09-14T14:31:15.000Z",
             "number": 105,
             "points": null,
-            "priority": null,
+            "priority": 3,
             "search_key": "105 eliminare libreria odo",
             "state": "open",
-            "status": "queued",
+            "status": "in_review",
             "title": "Eliminare libreria odo",
             "upvotes_count": 0,
             "created_at": "2018-09-12T11:19:38.743Z",
-            "updated_at": "2018-09-26T10:29:36.000Z",
+            "updated_at": "2018-10-09T14:24:45.717Z",
             "epic_id": 10971,
             "closer_id": null,
             "assignees": [
@@ -1605,8 +216,8 @@
                 }
             ],
             "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
+                "id": 26879,
+                "title": "Sprint 11",
                 "workspace_id": 17954,
                 "state": "open"
             },
@@ -1633,10 +244,1480 @@
             }
         },
         {
+            "id": 3686429,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": null,
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 140,
+            "points": 0.5,
+            "priority": 3,
+            "search_key": "140 prototipizzazione form basate su nuove librerie js e validazione dei dati input/output",
+            "state": "open",
+            "status": "queued",
+            "title": "Prototipizzazione form basate su nuove librerie JS e validazione dei dati input/output",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:42.655Z",
+            "updated_at": "2018-10-09T14:22:29.000Z",
+            "epic_id": 10795,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 220953,
+                    "username": "MatteoGnudi",
+                    "name": null,
+                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
+                },
+                {
+                    "id": 220955,
+                    "username": "sirmmo",
+                    "name": "Marco Montanari",
+                    "avatar_path": "/avatars/e8a9df02ef829fb8de100407b97ad976.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": {
+                "id": 10795,
+                "workspace_id": null,
+                "number": 1,
+                "status": "queued",
+                "color": "#000000",
+                "title": "Prototipo form amministrazione"
+            },
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161788,
+                    "name": "refactoring",
+                    "color": "f9cca2",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 331253256,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1349",
+                "locked": false,
+                "merged": false,
+                "number": 1349,
+                "type": "issue",
+                "created_at": "2018-06-11T16:07:01.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686425,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": null,
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 136,
+            "points": 0,
+            "priority": 3,
+            "search_key": "136 ridefinizione della gestioni dei grafi che determinano le dipendenze tra risorse (problema dei timeout nei pythopack, assegnazione permessi, etc.)",
+            "state": "open",
+            "status": "queued",
+            "title": "Ridefinizione della gestioni dei grafi che determinano le dipendenze tra risorse (problema dei timeout nei pythopack, assegnazione permessi, etc.)",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:42.352Z",
+            "updated_at": "2018-10-09T14:22:20.000Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161788,
+                    "name": "refactoring",
+                    "color": "f9cca2",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 331251698,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1344",
+                "locked": false,
+                "merged": false,
+                "number": 1344,
+                "type": "issue",
+                "created_at": "2018-06-11T16:02:45.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3773943,
+            "creator_id": 219999,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Passando il valore di 0 alla correlazione ci si aspetta di eliminare eventuali correlazioni\r\nesistenti.",
+            "category_name": "In Progress",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 1477,
+            "points": null,
+            "priority": 3,
+            "search_key": "1477 cannot delete correlation in massive upload",
+            "state": "open",
+            "status": "in_progress",
+            "title": "cannot delete correlation in massive upload",
+            "upvotes_count": 0,
+            "created_at": "2018-10-08T13:19:58.979Z",
+            "updated_at": "2018-10-09T14:17:11.186Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219999,
+                "username": "glaucouri",
+                "name": "Glauco"
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161781,
+                    "name": "models",
+                    "color": "c7def8",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 367786872,
+                "milestone_id": 3689764,
+                "source_id": 142119384,
+                "html_url": "https://github.com/prometeia/pytho/issues/18",
+                "locked": false,
+                "merged": false,
+                "number": 18,
+                "type": "issue",
+                "created_at": "2018-10-08T13:19:58.000Z",
+                "milestone": {
+                    "id": 3689764,
+                    "title": "pytho v4.5.0",
+                    "source_id": 142119384,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 142119384,
+                    "name": "pytho"
+                }
+            }
+        },
+        {
+            "id": 3686438,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Modficare il parser in modo che, se una custom componente o un modello di tipo full featured vengono caricati con equazioni a marginale zero, queste siano trasformate in definizioni. Nei log di upload deve essere esplicitata la modfica. \r\nSi prenda ad esempio la custom component e il modello associato.\r\n[MODELLO_IMAP_prova.xlsx](https://github.com/prometeia/doob/files/2175520/MODELLO_IMAP_prova.xlsx)\r\n[LIN_COM.xlsx](https://github.com/prometeia/doob/files/2175521/LIN_COM.xlsx)\r\n\r\n",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 1,
+            "last_comment_at": "2018-09-27T13:59:03.000Z",
+            "number": 149,
+            "points": 1,
+            "priority": 3,
+            "search_key": "149 declass zero-marginal equation to definition",
+            "state": "open",
+            "status": "queued",
+            "title": "Declass zero-marginal equation to definition",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:43.603Z",
+            "updated_at": "2018-10-09T14:05:04.877Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 339373813,
+                "milestone_id": 3689859,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1371",
+                "locked": false,
+                "merged": false,
+                "number": 1371,
+                "type": "issue",
+                "created_at": "2018-07-09T09:32:41.000Z",
+                "milestone": {
+                    "id": 3689859,
+                    "title": "gsf v4.5.0",
+                    "source_id": 14558258,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686439,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": null,
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 150,
+            "points": 8,
+            "priority": 3,
+            "search_key": "150 site administrator panel refactoring",
+            "state": "open",
+            "status": "queued",
+            "title": "Site Administrator Panel Refactoring",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:43.689Z",
+            "updated_at": "2018-10-09T14:04:45.042Z",
+            "epic_id": 10795,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 220953,
+                    "username": "MatteoGnudi",
+                    "name": null,
+                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
+                },
+                {
+                    "id": 220955,
+                    "username": "sirmmo",
+                    "name": "Marco Montanari",
+                    "avatar_path": "/avatars/e8a9df02ef829fb8de100407b97ad976.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": {
+                "id": 10795,
+                "workspace_id": null,
+                "number": 1,
+                "status": "queued",
+                "color": "#000000",
+                "title": "Prototipo form amministrazione"
+            },
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 341540140,
+                "milestone_id": 3689861,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1372",
+                "locked": false,
+                "merged": false,
+                "number": 1372,
+                "type": "issue",
+                "created_at": "2018-07-16T14:22:47.000Z",
+                "milestone": {
+                    "id": 3689861,
+                    "title": "pytho v5.0.0",
+                    "source_id": 14558258,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3729762,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Creare una reportistica con la quota di ogni utente.",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 1449,
+            "points": 1,
+            "priority": 3,
+            "search_key": "1449 ripristinare task quote",
+            "state": "open",
+            "status": "queued",
+            "title": "Ripristinare task quote",
+            "upvotes_count": 0,
+            "created_at": "2018-09-25T14:35:25.290Z",
+            "updated_at": "2018-10-09T14:03:51.000Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219778,
+                    "username": "debrando",
+                    "name": "Denis Brandolini",
+                    "avatar_path": "/avatars/52fd05acaf03d74f8c2af2f94b674808.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 363611139,
+                "milestone_id": 3689764,
+                "source_id": 142119384,
+                "html_url": "https://github.com/prometeia/pytho/issues/11",
+                "locked": false,
+                "merged": false,
+                "number": 11,
+                "type": "issue",
+                "created_at": "2018-09-25T14:35:24.000Z",
+                "milestone": {
+                    "id": 3689764,
+                    "title": "pytho v4.5.0",
+                    "source_id": 142119384,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 142119384,
+                    "name": "pytho"
+                }
+            }
+        },
+        {
+            "id": 3686444,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Configurare ambienti e definire iter di test",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 155,
+            "points": 3,
+            "priority": 3,
+            "search_key": "155 predisposizione postman per non-programmatori",
+            "state": "open",
+            "status": "queued",
+            "title": "Predisposizione Postman per non-programmatori",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:45.181Z",
+            "updated_at": "2018-10-09T14:01:53.704Z",
+            "epic_id": 11152,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                },
+                {
+                    "id": 219724,
+                    "username": "loredanaribatto",
+                    "name": null,
+                    "avatar_path": "/avatars/25e01b655a9c0677a6bac2217a18df1c.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": {
+                "id": 11152,
+                "workspace_id": null,
+                "number": 13,
+                "status": "queued",
+                "color": "",
+                "title": "Predisposizione Postman per non-programmatori"
+            },
+            "labels": [],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 358077287,
+                "milestone_id": 3654750,
+                "source_id": 130689576,
+                "html_url": "https://github.com/prometeia/ratingpro/issues/20",
+                "locked": false,
+                "merged": false,
+                "number": 20,
+                "type": "issue",
+                "created_at": "2018-09-07T13:56:08.000Z",
+                "milestone": {
+                    "id": 3654750,
+                    "title": "ratingpro v3.5.0",
+                    "source_id": 130689576,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 130689576,
+                    "name": "ratingpro"
+                }
+            }
+        },
+        {
+            "id": 3686435,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Se importo un pythopack in modalità di mantenimento delle risorse già presenti, le run delle simulazioni vengono duplicate. \r\nSi veda http://daa-ws-01:9100/5b33a7258736ef62e54e64fe/5b33a7398736ef6da8362020/\r\n(Il problema non si presentaa in produzione)\r\n\r\n1)creare un nuovo progetto\r\n2) caricare il pythopack  in allegato 2 volte e laseconda volta attivare il checkbox\r\n\r\n[sim.0.0.20.zip](https://github.com/prometeia/doob/files/2141945/sim.0.0.20.zip)\r\n",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 3,
+            "last_comment_at": "2018-10-08T09:22:32.000Z",
+            "number": 146,
+            "points": 1,
+            "priority": 3,
+            "search_key": "146 duplicazione run se pythopack è importato più volte",
+            "state": "open",
+            "status": "queued",
+            "title": "Duplicazione run se pythopack è importato più volte",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:43.282Z",
+            "updated_at": "2018-10-09T14:01:32.258Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 220953,
+                    "username": "MatteoGnudi",
+                    "name": null,
+                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161789,
+                    "name": "regression",
+                    "color": "b60205",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 336287712,
+                "milestone_id": 3689787,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1364",
+                "locked": false,
+                "merged": false,
+                "number": 1364,
+                "type": "issue",
+                "created_at": "2018-06-27T15:49:58.000Z",
+                "milestone": {
+                    "id": 3689787,
+                    "title": "pytho v4.3.5",
+                    "source_id": 14558258,
+                    "state": "closed"
+                },
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3748411,
+            "creator_id": 219999,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "cfr: Gemini ESUP-36524\r\n\r\nLa component CRP ha 2 bug di implementazione:\r\n1) viene utilizzata la funzione isf (invece della ppf) per il campionamento dei defalut\r\n2) nella gestione dei default, il minimo a 1 della popolazione fa si che cluster molto piccoli (ad esempio di 1 unità) facciano resuscitare le persone anche in caso di default",
+            "category_name": "In Progress",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 1463,
+            "points": 0.5,
+            "priority": 3,
+            "search_key": "1463 minor bug in crp component (gemini esup-36524)",
+            "state": "open",
+            "status": "in_progress",
+            "title": "minor bug in CRP component (Gemini ESUP-36524)",
+            "upvotes_count": 0,
+            "created_at": "2018-10-02T08:31:31.133Z",
+            "updated_at": "2018-10-09T14:00:56.761Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219999,
+                "username": "glaucouri",
+                "name": "Glauco"
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161775,
+                    "name": "gsf",
+                    "color": "c7def8",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 365792269,
+                "milestone_id": 3689771,
+                "source_id": 138867135,
+                "html_url": "https://github.com/prometeia/gsf/issues/17",
+                "locked": false,
+                "merged": false,
+                "number": 17,
+                "type": "issue",
+                "created_at": "2018-10-02T08:31:30.000Z",
+                "milestone": {
+                    "id": 3689771,
+                    "title": "gsf v4.5.0",
+                    "source_id": 138867135,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 138867135,
+                    "name": "gsf"
+                }
+            }
+        },
+        {
+            "id": 3686431,
+            "creator_id": 219999,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "![hb_ptunnamed](https://user-images.githubusercontent.com/3242660/41404674-1ad39af0-6fc8-11e8-80de-1e6adc8b0aba.jpg)\r\n\r\n\r\nCome si vede dall'immagine, sembra che almeno un metodo per creare progetti sia non autenticato e risponda  come si vede.\r\n\r\n",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 3,
+            "last_comment_at": "2018-09-10T13:32:22.000Z",
+            "number": 142,
+            "points": 1,
+            "priority": 3,
+            "search_key": "142 empty projects created by penetration test.",
+            "state": "open",
+            "status": "queued",
+            "title": "Empty projects created by penetration test.",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:42.765Z",
+            "updated_at": "2018-10-09T13:18:29.470Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 220953,
+                    "username": "MatteoGnudi",
+                    "name": null,
+                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219999,
+                "username": "glaucouri",
+                "name": "Glauco"
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161793,
+                    "name": "security",
+                    "color": "6ce286",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 332327890,
+                "milestone_id": 3689803,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1354",
+                "locked": false,
+                "merged": false,
+                "number": 1354,
+                "type": "issue",
+                "created_at": "2018-06-14T09:44:33.000Z",
+                "milestone": {
+                    "id": 3689803,
+                    "title": "pytho v4.5.0",
+                    "source_id": 14558258,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3723280,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "I risultati di questa simulazione sono scomparsi https://pythobeta.prometeia.it/5b2ba5268736ef270e566b62/5b2ba76f8736ef47dba96151/\r\n\r\nNon sono stati cancellati manualmente.",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 1,
+            "last_comment_at": "2018-09-25T14:33:46.000Z",
+            "number": 1439,
+            "points": 3,
+            "priority": 3,
+            "search_key": "1439 some results file seem to be deleted",
+            "state": "open",
+            "status": "queued",
+            "title": "Some results file seem to be deleted",
+            "upvotes_count": 0,
+            "created_at": "2018-09-21T15:17:14.845Z",
+            "updated_at": "2018-10-09T13:15:00.863Z",
+            "epic_id": 10973,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": {
+                "id": 10973,
+                "workspace_id": null,
+                "number": 9,
+                "status": "in_progress",
+                "color": "#bad41d",
+                "title": "File cleaner upgrade"
+            },
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 362662472,
+                "milestone_id": 3689764,
+                "source_id": 142119384,
+                "html_url": "https://github.com/prometeia/pytho/issues/10",
+                "locked": false,
+                "merged": false,
+                "number": 10,
+                "type": "issue",
+                "created_at": "2018-09-21T15:17:13.000Z",
+                "milestone": {
+                    "id": 3689764,
+                    "title": "pytho v4.5.0",
+                    "source_id": 142119384,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 142119384,
+                    "name": "pytho"
+                }
+            }
+        },
+        {
+            "id": 3686359,
+            "creator_id": 219999,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "- Aggiungere al caricamento DS la convenzione per il Nan.\r\n\r\n- Durante l'upload di un file excel dare la possibilità di scegliere riga e colonna di inizio della tabella.\r\n\r\n- Files senza header : [#577 (prometeia/doob#94)](https://zube.io/prometeia/pytho-rating-pro/c/577)\r\r\n\r\n- Separatori numeri: [#576 (prometeia/doob#327)](https://zube.io/prometeia/pytho-rating-pro/c/576)  e [#387 (prometeia/doob#416)](https://zube.io/prometeia/pytho-rating-pro/c/387)",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 71,
+            "points": 1,
+            "priority": 4,
+            "search_key": "71 upload ds from file form",
+            "state": "open",
+            "status": "queued",
+            "title": "Upload DS from file form",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:35.161Z",
+            "updated_at": "2018-10-09T14:25:33.909Z",
+            "epic_id": 10971,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219998,
+                    "username": "ilmioalias",
+                    "name": "Luigi Curzi",
+                    "avatar_path": "/avatars/9b47ca4152b26040c018e8017852a339.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219999,
+                "username": "glaucouri",
+                "name": "Glauco"
+            },
+            "epic": {
+                "id": 10971,
+                "workspace_id": null,
+                "number": 7,
+                "status": "in_progress",
+                "color": "#21e815",
+                "title": "Smantellamento ODO"
+            },
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 268779954,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1120",
+                "locked": false,
+                "merged": false,
+                "number": 1120,
+                "type": "issue",
+                "created_at": "2017-10-26T14:22:57.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3776952,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "- gestione indice delle timeseries\r\n- gestione convenzione DATA",
+            "category_name": "In Progress",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 1481,
+            "points": 1,
+            "priority": 4,
+            "search_key": "1481 modifica gestione indici dati",
+            "state": "open",
+            "status": "in_progress",
+            "title": "Modifica gestione indici dati",
+            "upvotes_count": 0,
+            "created_at": "2018-10-09T14:22:08.195Z",
+            "updated_at": "2018-10-09T14:23:47.077Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219998,
+                    "username": "ilmioalias",
+                    "name": "Luigi Curzi",
+                    "avatar_path": "/avatars/9b47ca4152b26040c018e8017852a339.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161772,
+                    "name": "datasets",
+                    "color": "bfe5bf",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 368236283,
+                "milestone_id": 3689771,
+                "source_id": 138867135,
+                "html_url": "https://github.com/prometeia/gsf/issues/25",
+                "locked": false,
+                "merged": false,
+                "number": 25,
+                "type": "issue",
+                "created_at": "2018-10-09T14:22:07.000Z",
+                "milestone": {
+                    "id": 3689771,
+                    "title": "gsf v4.5.0",
+                    "source_id": 138867135,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 138867135,
+                    "name": "gsf"
+                }
+            }
+        },
+        {
+            "id": 3686432,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "In un modello come quello in allegato \r\n[JYmodel - mar2018 (1).zip](https://github.com/prometeia/doob/files/2118990/JYmodel.-.mar2018.1.zip)\r\nLa variabile \"testino\", compresa nel range dei modelli, fa riferimento ad una esogena, anch'essa compresa nei range dei modelli, che ha label drift_r ma che è anche definita nel namemanger  come test_nome: il parser predilige la definizione del namemanger e la considera come parametro.\r\nSi veda la componente del modello caricato in beta\r\n![image](https://user-images.githubusercontent.com/18213555/41654761-c3a55cd8-748a-11e8-9b46-177c7525f173.png)\r\n\r\nhttps://pythobeta.prometeia.it/5b0bfb668736ef7199ec814d/5b0c05ff8736ef0232f0878f/\r\n\r\nModificare il comportamento del parser in modo che le equazioni riconoscano come input una componente anche se è definita nel namemanager.\r\n\r\n\r\n",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 143,
+            "points": 1,
+            "priority": 4,
+            "search_key": "143 ambiguità nome componente/parametro",
+            "state": "open",
+            "status": "queued",
+            "title": "Ambiguità nome componente/parametro",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:42.856Z",
+            "updated_at": "2018-10-09T14:23:11.628Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 334030492,
+                "milestone_id": 3689859,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1358",
+                "locked": false,
+                "merged": false,
+                "number": 1358,
+                "type": "issue",
+                "created_at": "2018-06-20T11:11:49.000Z",
+                "milestone": {
+                    "id": 3689859,
+                    "title": "gsf v4.5.0",
+                    "source_id": 14558258,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686437,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "In riferimento alla issue [#225 (prometeia/doob#1300)](https://zube.io/prometeia/pytho-rating-pro/c/225)  aggiungere le funzionalità di modifica dell'alias e cancellazione di massa, ossia dare la possibilità di aggiungere le variabili con alias diverso dal formato modello_component tramite **_type_** _Add_ e di cancellarle tramite _Delete_",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 148,
+            "points": 1,
+            "priority": 4,
+            "search_key": "148 add mass operation for setting alias e deleting variables from manage variables button",
+            "state": "open",
+            "status": "queued",
+            "title": "Add mass operation for setting alias e deleting variables from Manage variables button",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:43.420Z",
+            "updated_at": "2018-10-09T14:20:25.493Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 220953,
+                    "username": "MatteoGnudi",
+                    "name": null,
+                    "avatar_path": "/avatars/b0f1b1e8fbde7a3fcbefce1d8f249e5d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 337522205,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1369",
+                "locked": false,
+                "merged": false,
+                "number": 1369,
+                "type": "issue",
+                "created_at": "2018-07-02T13:36:56.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686336,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Si prenda ad esempio il dataset https://pythobeta.prometeia.it/57c59cf38736ef1956aabecb/58735ed28736ef11d8930d2c/\r\n\r\nFare il download as Excel e l'update con lo stesso dataset appena scaricato cambiando però chiave come in figura\r\n![image](https://cloud.githubusercontent.com/assets/18213555/22293108/a69ca0e2-e30e-11e6-97c4-4a8724816d4b.png)\r\n\r\nIl sistema ritorna errore 500 con il seguente traceback:\r\n\r\nKeyError at /diff/58735ed28736ef11d8930d2c/\r\n2\r\n\r\nRequest Method: POST\r\nRequest URL: https://pythobeta.prometeia.it/diff/58735ed28736ef11d8930d2c/\r\nDjango Version: 1.7.3\r\nPython Executable: /home/pytho_dev/miniconda/envs/pytho_dev/bin/python\r\nPython Version: 2.7.11\r\nPython Path: ['/home/pytho_dev', '/home/pytho_dev/miniconda/envs/pytho_dev/bin', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python27.zip', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/plat-linux2', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/lib-tk', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/lib-old', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/lib-dynload', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/AddOns-0.7-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/BytecodeAssembler-0.6-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/DecoratorTools-1.8-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/Extremes-1.1.1-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/Genshi-0.7-py2.7-linux-x86_64.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/M2Crypto-0.22.3-py2.7-linux-x86_64.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/Paste-1.7.5.1-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/PasteScript-1.7.5-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/SymbolType-1.0-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/ToscaWidgets-0.9.12-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/TurboJson-1.3.2-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/TurboKid-1.0.5-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/TurboMail-3.0.3-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/cloud-2.8.5-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/cssmin-0.2.0-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/datadiff-1.1.6-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/django_appconf-1.0.1-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/good-0.0.7.post0-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/humanize-0.5.1-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/infix-1.1-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/ipdb-0.8-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/jsmin-2.0.8-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/mod_auth_library-1.0-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/mongoengine-0.8.7-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/pika-0.10.0-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/prettytable-0.7.2-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/tw.forms-0.9.9-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/voluptuous-0.8.11-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/Unidecode-0.4.19-py2.7.egg', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/setuptools-20.7.0-py2.7.egg', '', '', '/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/chartdirector', '/home/pytho_dev', '/home/pytho_dev/portfolios_plugins', '/home/pytho_dev']\r\nServer time: Wed, 25 Jan 2017 14:58:20 +0100\r\nInstalled Applications:\r\n('django.contrib.admin',\r\n 'django.contrib.auth',\r\n 'mongoengine.django.mongo_auth',\r\n 'django.contrib.contenttypes',\r\n 'django.contrib.redirects',\r\n 'django.contrib.sessions',\r\n 'django.contrib.sites',\r\n 'django.contrib.sitemaps',\r\n 'django.contrib.staticfiles',\r\n 'django_nose',\r\n 'compressor',\r\n 'crispy_forms',\r\n 'ajaxuploader',\r\n 'arktheme',\r\n 'pytho_forms',\r\n 'spreadjs',\r\n 'core',\r\n 'pytho_auth',\r\n 'pytho_manage',\r\n 'pytho_monitor',\r\n 'pytho_soa',\r\n 'django_extensions',\r\n 'test_suite',\r\n 'd3',\r\n 'pytho_docs',\r\n 'gunicorn')\r\nInstalled Middleware:\r\n('django.contrib.sessions.middleware.SessionMiddleware',\r\n 'django.middleware.locale.LocaleMiddleware',\r\n 'django.contrib.auth.middleware.AuthenticationMiddleware',\r\n 'django.middleware.common.CommonMiddleware',\r\n 'django.middleware.csrf.CsrfViewMiddleware',\r\n 'django.contrib.messages.middleware.MessageMiddleware',\r\n 'django.middleware.transaction.TransactionMiddleware',\r\n 'pytho_auth.middleware.PythoMiddleware',\r\n 'core.middlewares.browse.BrowseMiddleware',\r\n 'core.middlewares.threadlocal.ThreadLocalMiddleware')\r\n\r\nTraceback:\r\nFile \"/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/django/core/handlers/base.py\" in get_response\r\n  111.                     response = wrapped_callback(request, *callback_args, **callback_kwargs)\r\nFile \"/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/django/db/transaction.py\" in inner\r\n  394.                 return func(*args, **kwargs)\r\nFile \"/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/django/contrib/auth/decorators.py\" in _wrapped_view\r\n  21.                 return view_func(request, *args, **kwargs)\r\nFile \"/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/core/views.py\" in modal_diff\r\n  2739.                 task_id, ret = task_controller(task_id=request.POST.get('task_id',False),args=[item, source_dict, item.url],routing_key=settings.CELERY_WEB_ROUTING_KEY, callable_task = submit_new_resource)\r\nFile \"/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/core/task.py\" in task_controller\r\n  23.             res_or_exception = task_action.get(timeout=3)\r\nFile \"/home/pytho_dev/miniconda/envs/pytho_dev/lib/python2.7/site-packages/celery/result.py\" in get\r\n  175.                 raise meta['result']\r\n\r\nException Type: KeyError at /diff/58735ed28736ef11d8930d2c/\r\nException Value: 2\r\nRequest information:\r\nGET: No GET data\r\n\r\nPOST:\r\nindex = u'LOANS_GR'\r\nINT_RATE_type = u'float64'\r\ntask_id = u'21e5d548-02cd-4a77-b465-e707308d8160'\r\nurl = u'/media/uploads/IRI_DS_0_copy_5 (0.0)1.xls'\r\nold_schema = u'false'\r\nDATE_type = u'datetime'\r\nLOANS_GR_type = u'float64'\r\nLOANS_type = u'float64'\r\nkeys_type:list = u'LOANS_GR'\r\ncsrfmiddlewaretoken = u'hHDkixBbYTSxYEGtYNp1U1cgFgUmnkJC'\r\n\r\nFILES: No FILES data\r\n",
+            "category_name": "In Review",
+            "closed_at": null,
+            "comments_count": 6,
+            "last_comment_at": "2018-06-20T11:24:39.000Z",
+            "number": 48,
+            "points": null,
+            "priority": 4,
+            "search_key": "48 500 error in updating dataset if pk is changed",
+            "state": "open",
+            "status": "in_review",
+            "title": "500 Error in updating dataset if pk is changed",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:32.734Z",
+            "updated_at": "2018-10-09T14:16:17.000Z",
+            "epic_id": 10971,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219998,
+                    "username": "ilmioalias",
+                    "name": "Luigi Curzi",
+                    "avatar_path": "/avatars/9b47ca4152b26040c018e8017852a339.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": {
+                "id": 10971,
+                "workspace_id": null,
+                "number": 7,
+                "status": "in_progress",
+                "color": "#21e815",
+                "title": "Smantellamento ODO"
+            },
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161772,
+                    "name": "datasets",
+                    "color": "bfe5bf",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 203109848,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/919",
+                "locked": false,
+                "merged": false,
+                "number": 919,
+                "type": "issue",
+                "created_at": "2017-01-25T13:59:16.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686293,
+            "creator_id": 220956,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Se il file che carico (e.g. xls o xlsx) ha il primo foglio vuoto il file Excel non viene caricato e genera l'errore:\nexceptions must be old-style classes or derived from BaseException, not NoneType\n\nIl file di test è qui: \\Google Drive\\PYTHO\\TESTS\\DATASETS\\DS_timeseries primo foglio vuoto.xls o il corrispettivo in xlsx.\n\nIn questo caso, il foglio numero 3 è chiamato \"Sheet_A\" ed è il foglio che contiene i dati che vorrei caricare; questo foglio lo dovrei scegliere dal menu a tendina Sheet Name.\n",
+            "category_name": "In Review",
+            "closed_at": null,
+            "comments_count": 2,
+            "last_comment_at": "2017-01-27T16:11:15.000Z",
+            "number": 5,
+            "points": null,
+            "priority": 4,
+            "search_key": "5 ds: file con primo foglio vuoto non viene caricato (i dati da caricare sono nei fogli successivi)",
+            "state": "open",
+            "status": "in_review",
+            "title": "DS: file con primo foglio vuoto non viene caricato (i dati da caricare sono nei fogli successivi)",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:27.727Z",
+            "updated_at": "2018-10-09T14:16:01.353Z",
+            "epic_id": 10971,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219998,
+                    "username": "ilmioalias",
+                    "name": "Luigi Curzi",
+                    "avatar_path": "/avatars/9b47ca4152b26040c018e8017852a339.jpg"
+                }
+            ],
+            "creator": {
+                "id": 220956,
+                "username": "mattivi",
+                "name": null
+            },
+            "epic": {
+                "id": 10971,
+                "workspace_id": null,
+                "number": 7,
+                "status": "in_progress",
+                "color": "#21e815",
+                "title": "Smantellamento ODO"
+            },
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161772,
+                    "name": "datasets",
+                    "color": "bfe5bf",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 113803247,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/371",
+                "locked": false,
+                "merged": false,
+                "number": 371,
+                "type": "issue",
+                "created_at": "2015-10-28T11:53:12.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686426,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": null,
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 137,
+            "points": 2,
+            "priority": 4,
+            "search_key": "137 modifica dell’approccio di navigazione dei grafi (iter_edges)",
+            "state": "open",
+            "status": "queued",
+            "title": "Modifica dell’approccio di navigazione dei grafi (iter_edges)",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:42.405Z",
+            "updated_at": "2018-10-09T14:10:05.000Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161788,
+                    "name": "refactoring",
+                    "color": "f9cca2",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 331251794,
+                "milestone_id": 3689862,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1345",
+                "locked": false,
+                "merged": false,
+                "number": 1345,
+                "type": "issue",
+                "created_at": "2018-06-11T16:03:01.000Z",
+                "milestone": {
+                    "id": 3689862,
+                    "title": "gsf v5.0.0",
+                    "source_id": 14558258,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3773896,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Eliminare qualunque riferimento alle risorse contenute",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 1476,
+            "points": 8,
+            "priority": 4,
+            "search_key": "1476 dismissione della gestione risorse “contenute”",
+            "state": "open",
+            "status": "queued",
+            "title": "Dismissione della gestione risorse “contenute”",
+            "upvotes_count": 0,
+            "created_at": "2018-10-08T13:03:49.985Z",
+            "updated_at": "2018-10-09T14:07:18.977Z",
+            "epic_id": 11162,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219778,
+                    "username": "debrando",
+                    "name": "Denis Brandolini",
+                    "avatar_path": "/avatars/52fd05acaf03d74f8c2af2f94b674808.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": {
+                "id": 11162,
+                "workspace_id": null,
+                "number": 15,
+                "status": "in_progress",
+                "color": "#b200ff",
+                "title": "Refactory modello dati"
+            },
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 367780231,
+                "milestone_id": 3709730,
+                "source_id": 138867135,
+                "html_url": "https://github.com/prometeia/gsf/issues/22",
+                "locked": false,
+                "merged": false,
+                "number": 22,
+                "type": "issue",
+                "created_at": "2018-10-08T13:03:49.000Z",
+                "milestone": {
+                    "id": 3709730,
+                    "title": "gsf v4.6.0",
+                    "source_id": 138867135,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 138867135,
+                    "name": "gsf"
+                }
+            }
+        },
+        {
             "id": 3686485,
             "creator_id": 219999,
             "project_id": 15973,
-            "sprint_id": 26542,
+            "sprint_id": 26879,
             "workspace_id": 17954,
             "body": "Saltuariamente si presenta questo errore.\r\n\r\n```\r\nTraceback (most recent call last):\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\r\n    R = retval = fun(*args, **kwargs)\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/celery/app/trace.py\", line 438, in __protected_call__\r\n    return self.run(*args, **kwargs)\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/gsf/engine/catalog.py\", line 350, in generic_web_task\r\n    res = execute(*args,**kwargs)\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/gsf/mongodoob/taskify.py\", line 56, in func_wrapper\r\n    return func(self, *args, **kwargs)\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/gsf/mongodoob/simulations.py\", line 1513, in _run\r\n    nconsumers=None,\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/gsf/simulator/simulation.py\", line 1969, in simulate\r\n    V14(self,runs,nconsumers=nconsumers)\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/gsf/simulator/broker.py\", line 48, in V14\r\n    res = results_queue.get()\r\n  File \"/home/pytho_prod/miniconda/envs/pytho/lib/python2.7/site-packages/gsf/engine/queues.py\", line 405, in get\r\n    raise Exception(self.error_message)\r\nException: IndexError('pop from an empty deque',)\r\n\r\n```",
             "category_name": "Ready",
@@ -1644,15 +1725,15 @@
             "comments_count": 1,
             "last_comment_at": "2018-09-26T09:40:03.000Z",
             "number": 196,
-            "points": null,
-            "priority": null,
+            "points": 2,
+            "priority": 4,
             "search_key": "196 random error on e2v14 - ",
             "state": "open",
             "status": "queued",
             "title": "Random error on e2V14 - ",
             "upvotes_count": 0,
             "created_at": "2018-09-12T11:19:50.221Z",
-            "updated_at": "2018-09-26T10:06:09.000Z",
+            "updated_at": "2018-10-09T14:04:13.519Z",
             "epic_id": null,
             "closer_id": null,
             "assignees": [
@@ -1678,8 +1759,8 @@
                 }
             ],
             "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
+                "id": 26879,
+                "title": "Sprint 11",
                 "workspace_id": 17954,
                 "state": "open"
             },
@@ -1706,29 +1787,508 @@
             }
         },
         {
-            "id": 3731547,
-            "creator_id": 219724,
+            "id": 3686337,
+            "creator_id": 219999,
             "project_id": 15973,
-            "sprint_id": 26542,
+            "sprint_id": 26879,
             "workspace_id": 17954,
-            "body": "",
+            "body": "Valutare una procedura che tenga sotto controllo la crescita dei files nella cartella degli upload.\r\n\r\nmi verrebbe da pensare al filecleaner con una procedura che cancella i files più vecchi di X.\r\n\r\ntemporaneamente possiamo procedere con questo comando per le macchine linux:\r\n(rimuove i files piu vecchi di 30gg.\r\n\r\nfind * -mtime +30 -exec rm {} \\;\r\n\r\n",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 3,
+            "last_comment_at": "2018-05-21T07:48:53.000Z",
+            "number": 49,
+            "points": 0.5,
+            "priority": 4,
+            "search_key": "49 media/uploads handle old files",
+            "state": "open",
+            "status": "queued",
+            "title": "media/uploads handle old files",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:32.800Z",
+            "updated_at": "2018-10-09T14:03:16.145Z",
+            "epic_id": 10973,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219999,
+                "username": "glaucouri",
+                "name": "Glauco"
+            },
+            "epic": {
+                "id": 10973,
+                "workspace_id": null,
+                "number": 9,
+                "status": "in_progress",
+                "color": "#bad41d",
+                "title": "File cleaner upgrade"
+            },
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161778,
+                    "name": "infrastructure",
+                    "color": "006b75",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 204230749,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/924",
+                "locked": false,
+                "merged": false,
+                "number": 924,
+                "type": "issue",
+                "created_at": "2017-01-31T08:24:55.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3695591,
+            "creator_id": 219999,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "\r\n[SEL_PortfolioModel_completo_macro_test1.zip](https://github.com/prometeia/gsf/files/2388036/SEL_PortfolioModel_completo_macro_test1.zip)\r\n\r\nil caso è interessante,\r\nle equazioni alla riga 445:452  sono scritte in forma =0 e anche forzando\r\nil formato a stringa vengono interpretate come funzioni numeriche.\r\nquello è il float che da fastidio.\r\n\r\nScrivendole invece in forma '0 si obblica excel a gestire quei casi come numeri.\r\n\r\nProbabilmente forzando a stringa tutti i campi equation risolviamo il bproblema\r\n",
             "category_name": "Ready",
             "closed_at": null,
             "comments_count": 0,
             "last_comment_at": null,
-            "number": 1450,
-            "points": null,
-            "priority": null,
-            "search_key": "1450 test random error on e2v14",
+            "number": 1422,
+            "points": 0.5,
+            "priority": 4,
+            "search_key": "1422 enforce type handler in massive upload.",
             "state": "open",
             "status": "queued",
-            "title": "Test Random error on e2V14",
+            "title": "Enforce type handler in massive upload.",
             "upvotes_count": 0,
-            "created_at": "2018-09-26T10:04:44.888Z",
-            "updated_at": "2018-09-26T10:04:44.888Z",
+            "created_at": "2018-09-17T09:46:16.383Z",
+            "updated_at": "2018-10-09T14:02:51.592Z",
             "epic_id": null,
             "closer_id": null,
-            "assignees": [],
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219999,
+                "username": "glaucouri",
+                "name": "Glauco"
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 360792675,
+                "milestone_id": 3689771,
+                "source_id": 138867135,
+                "html_url": "https://github.com/prometeia/gsf/issues/6",
+                "locked": false,
+                "merged": false,
+                "number": 6,
+                "type": "issue",
+                "created_at": "2018-09-17T09:46:14.000Z",
+                "milestone": {
+                    "id": 3689771,
+                    "title": "gsf v4.5.0",
+                    "source_id": 138867135,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 138867135,
+                    "name": "gsf"
+                }
+            }
+        },
+        {
+            "id": 3686491,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Nel tab correlation dei modelli è possibile inserire una stessa correlazione due volte (invertendo l'ordine delle componenti) con coefficienti diversi: inserire un controllo di consistenza sia da interfaccia sia da foglio Excel che impedisca l'inserimetno di una correlazione già presente.",
+            "category_name": "In Progress",
+            "closed_at": null,
+            "comments_count": 2,
+            "last_comment_at": "2018-09-28T15:50:54.000Z",
+            "number": 202,
+            "points": 1,
+            "priority": 4,
+            "search_key": "202 possibile inserire una correlazione duplicata",
+            "state": "open",
+            "status": "in_progress",
+            "title": "Possibile inserire una correlazione duplicata",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:51.248Z",
+            "updated_at": "2018-10-09T14:01:12.279Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219724,
+                "username": "loredanaribatto",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 353025249,
+                "milestone_id": 3689764,
+                "source_id": 142119384,
+                "html_url": "https://github.com/prometeia/pytho/issues/5",
+                "locked": false,
+                "merged": false,
+                "number": 5,
+                "type": "issue",
+                "created_at": "2018-08-22T16:12:39.000Z",
+                "milestone": {
+                    "id": 3689764,
+                    "title": "pytho v4.5.0",
+                    "source_id": 142119384,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 142119384,
+                    "name": "pytho"
+                }
+            }
+        },
+        {
+            "id": 3686386,
+            "creator_id": 220951,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Se la macro è molto complessa e / o il dataset di input è molto grande,\r\nil run in modalità debug finisce con un timeout. Il problema è che il messagio di timeout\r\nnon è parlante.\r\nQuindi:\r\n- gestire il messagio di errore\r\n- Reinitializzare la macro (abort).",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 2,
+            "last_comment_at": "2018-05-15T09:15:40.000Z",
+            "number": 98,
+            "points": 0.5,
+            "priority": 4,
+            "search_key": "98 timeout in fase di esecuzione - debug - della macro",
+            "state": "open",
+            "status": "queued",
+            "title": "Timeout in fase di esecuzione - debug - della macro",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:37.939Z",
+            "updated_at": "2018-10-09T13:18:43.683Z",
+            "epic_id": 10972,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 220955,
+                    "username": "sirmmo",
+                    "name": "Marco Montanari",
+                    "avatar_path": "/avatars/e8a9df02ef829fb8de100407b97ad976.jpg"
+                }
+            ],
+            "creator": {
+                "id": 220951,
+                "username": "cyrille81",
+                "name": null
+            },
+            "epic": {
+                "id": 10972,
+                "workspace_id": null,
+                "number": 8,
+                "status": "in_progress",
+                "color": "#6f73ba",
+                "title": "Gestione attività time consuming"
+            },
+            "labels": [
+                {
+                    "id": 161768,
+                    "name": "bug",
+                    "color": "eb6420",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161771,
+                    "name": "data management",
+                    "color": "fef2c0",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 311540759,
+                "milestone_id": 3689803,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1244",
+                "locked": false,
+                "merged": false,
+                "number": 1244,
+                "type": "issue",
+                "created_at": "2018-04-05T09:43:03.000Z",
+                "milestone": {
+                    "id": 3689803,
+                    "title": "pytho v4.5.0",
+                    "source_id": 14558258,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686388,
+            "creator_id": 220951,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Abilitare lagestione del tipo Categorical in Pytho, sia nella preview che nella keep e l'astype.",
+            "category_name": "In Review",
+            "closed_at": null,
+            "comments_count": 0,
+            "last_comment_at": null,
+            "number": 99,
+            "points": null,
+            "priority": 4,
+            "search_key": "99 tipo categorical",
+            "state": "open",
+            "status": "in_review",
+            "title": "Tipo Categorical",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:38.133Z",
+            "updated_at": "2018-10-09T13:11:50.357Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219999,
+                    "username": "glaucouri",
+                    "name": "Glauco",
+                    "avatar_path": "/avatars/fb452c6bbb57781eb598c25f3257bf4d.jpg"
+                }
+            ],
+            "creator": {
+                "id": 220951,
+                "username": "cyrille81",
+                "name": null
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161771,
+                    "name": "data management",
+                    "color": "fef2c0",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 313645513,
+                "milestone_id": null,
+                "source_id": 14558258,
+                "html_url": "https://github.com/prometeia/doob/issues/1255",
+                "locked": false,
+                "merged": false,
+                "number": 1255,
+                "type": "issue",
+                "created_at": "2018-04-12T09:26:23.000Z",
+                "milestone": null,
+                "source": {
+                    "id": 14558258,
+                    "name": "doob"
+                }
+            }
+        },
+        {
+            "id": 3686442,
+            "creator_id": 219778,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "Il campo \"pk\" nella richiesta di rating mappa direttamente il campo \"_id\" nella collection resources, il che è poco comodo visto che da interfaccia non lo si vede, e comunque esportando/importanto cambia.\r\n\r\nBisognerebbe poterlo risolvere anche in maniera più astratta, ad esempio per progetto e ID.\r\n\r\nNecessario anche verificare l'effettivo privilegio di accesso alla risorsa: attualmente si usa solo e unicamente la *get_item,* che sebbene prenda come parametro lo _username_ questo in realtà poi viene ignorato, andrebbe esplicitamente chiamata a ruota la *has_permission*.",
+            "category_name": "In Progress",
+            "closed_at": null,
+            "comments_count": 10,
+            "last_comment_at": "2018-10-03T15:18:53.000Z",
+            "number": 153,
+            "points": 0.5,
+            "priority": 4,
+            "search_key": "153 select target rating macro without knowing the _id and checking the permissions",
+            "state": "open",
+            "status": "in_progress",
+            "title": "Select target rating macro without knowing the _id and checking the permissions",
+            "upvotes_count": 0,
+            "created_at": "2018-09-12T11:19:44.834Z",
+            "updated_at": "2018-10-09T12:59:08.980Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219778,
+                    "username": "debrando",
+                    "name": "Denis Brandolini",
+                    "avatar_path": "/avatars/52fd05acaf03d74f8c2af2f94b674808.jpg"
+                },
+                {
+                    "id": 219724,
+                    "username": "loredanaribatto",
+                    "name": null,
+                    "avatar_path": "/avatars/25e01b655a9c0677a6bac2217a18df1c.jpg"
+                }
+            ],
+            "creator": {
+                "id": 219778,
+                "username": "debrando",
+                "name": "Denis Brandolini"
+            },
+            "epic": null,
+            "labels": [
+                {
+                    "id": 161774,
+                    "name": "enhancement",
+                    "color": "009800",
+                    "project_id": 15973
+                },
+                {
+                    "id": 161793,
+                    "name": "security",
+                    "color": "6ce286",
+                    "project_id": 15973
+                }
+            ],
+            "sprint": {
+                "id": 26879,
+                "title": "Sprint 11",
+                "workspace_id": 17954,
+                "state": "open"
+            },
+            "github_issue": {
+                "id": 322329868,
+                "milestone_id": 3654750,
+                "source_id": 130689576,
+                "html_url": "https://github.com/prometeia/ratingpro/issues/9",
+                "locked": false,
+                "merged": false,
+                "number": 9,
+                "type": "issue",
+                "created_at": "2018-05-11T15:03:02.000Z",
+                "milestone": {
+                    "id": 3654750,
+                    "title": "ratingpro v3.5.0",
+                    "source_id": 130689576,
+                    "state": "open"
+                },
+                "source": {
+                    "id": 130689576,
+                    "name": "ratingpro"
+                }
+            }
+        },
+        {
+            "id": 3729666,
+            "creator_id": 219724,
+            "project_id": 15973,
+            "sprint_id": 26879,
+            "workspace_id": 17954,
+            "body": "",
+            "category_name": "Ready",
+            "closed_at": null,
+            "comments_count": 1,
+            "last_comment_at": "2018-09-27T13:10:12.694Z",
+            "number": 1446,
+            "points": null,
+            "priority": null,
+            "search_key": "1446 testare in produzione duplicazione run se pythopack è importato più volte",
+            "state": "open",
+            "status": "queued",
+            "title": "Testare in produzione Duplicazione run se pythopack è importato più volte",
+            "upvotes_count": 0,
+            "created_at": "2018-09-25T14:03:01.978Z",
+            "updated_at": "2018-10-09T13:12:40.463Z",
+            "epic_id": null,
+            "closer_id": null,
+            "assignees": [
+                {
+                    "id": 219724,
+                    "username": "loredanaribatto",
+                    "name": null,
+                    "avatar_path": "/avatars/25e01b655a9c0677a6bac2217a18df1c.jpg"
+                }
+            ],
             "creator": {
                 "id": 219724,
                 "username": "loredanaribatto",
@@ -1737,8 +2297,8 @@
             "epic": null,
             "labels": [],
             "sprint": {
-                "id": 26542,
-                "title": "Sprint 10",
+                "id": 26879,
+                "title": "Sprint 11",
                 "workspace_id": 17954,
                 "state": "open"
             },

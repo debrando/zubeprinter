@@ -9,31 +9,37 @@ BOOTSTRAP = '''
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 '''
 
-with open('example.json') as infile:
-    alldata = json.load(infile)
+with open('example.json', encoding='utf-8') as infile:
+    alldata = json.load(infile, encoding='utf-8')
+
 
 def extract(src, *fields):
     return {k: '' if v is None else v for k, v in src.items() if k in fields}
 
+
 printus = []
 for card in alldata['cards']:
-    data = extract(card, 'number', 'points', 'priority', 'title', 'labels')
+    data = extract(card, 'number', 'points', 'priority', 'title', 'labels', 'assignees')
     data['labels'] = sorted(l['name'] for l in data['labels'])
+    data['assignees'] = sorted(l['username'] for l in data['assignees'])
     printus.append(data)
+
 
 def renderone(card):
     if not card:
         return
-    with tag('div', klass="card", style="width: 18rem;"):
+    with tag('div', klass="card col"): # , style="width: 18rem;"):
         with tag('div', klass="card-body"):
-            with tag('h5', klass="card-title"):
+            with tag('h1', klass="card-title"):
                 text('#%(number)s' % card)
-            with tag('h6', klass="card-subtitle mb-2 text-muted"):
+            with tag('h4', klass="card-subtitle mb-2 text-muted"):
                 text('pr: %(priority)s po: %(points)s' % card)
+            with tag('h5', klass="card-subtitle mb-2 text-muted"):
+                text(', '.join(card['assignees']))
             with tag('h6', klass="card-subtitle mb-2 text-muted"):
                 text(', '.join(card['labels']))
-            with tag('p', klass="card-text"):
-                text(card['title'])
+            with tag('p', klass="card-text", style="text-align: justify"):
+                text(card['title'] + '.')
 
 
 doc, tag, text = Doc().tagtext()
@@ -41,7 +47,7 @@ doc.asis('<!DOCTYPE html>')
 with tag('html', lang="en"):
     with tag('head'):
         doc.asis('<meta charset="utf-8">')
-        doc.asis('<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">')
+        doc.asis('<meta name="viewport" content="width=device-width, initial-scale=1">')
         for bline in BOOTSTRAP.splitlines():
             if bline.strip():
                 doc.asis(bline.strip())
@@ -54,5 +60,5 @@ with tag('html', lang="en"):
                     for _ in range(3):
                         renderone(printus.pop(0) if printus else None)
 
-with open('example.html', 'w') as outfile:
+with open('example.html', 'w', encoding='utf-8') as outfile:
     outfile.write(indent(doc.getvalue(), indentation='  '))
